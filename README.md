@@ -17,6 +17,6 @@ If the first ball has not been broken, throw it from the x + (x-1) + (x-2) layer
 
 The maximum number of floors that can be determined by x attempts is x + (x-1) + (x-2) + ... + 1 = x (x + 1) / 2.
 
-### 1. Two balls problem f [n] = min {1 + max (i-1, f [ni]) | i = 1..n} Initial condition: f [0] = 0 (or f [1] = 1)
+### 1 - Two balls problem f [n] = min {1 + max (i-1, f [ni]) | i = 1..n} Initial condition: f [0] = 0 (or f [1] = 1)
 
-### 2.m balls problem f [n, m] = min {1 + max (f [i-1, m-1], f [ni, m]) | i = 1..n} Initial condition: f [i, 0] = 0 (or f [i, 1] = i)
+### 2 - m balls problem f [n, m] = min {1 + max (f [i-1, m-1], f [ni, m]) | i = 1..n} Initial condition: f [i, 0] = 0 (or f [i, 1] = i)
