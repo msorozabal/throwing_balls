@@ -5,7 +5,7 @@ Suppose that you have an N-story building and plenty of balls. Suppose also that
 
 ## Analysis, assuming that x is the maximum number of optimal solutions.
 
-Then the first ball is thrown from the xth layer for the first time (regardless of whether it is broken or not, there are x-1 attempts).
+The first ball is thrown from the xth layer for the first time (regardless of whether it is broken or not, there are x-1 attempts).
 
 If it is broken, the second ball is searched linearly in layers 1 to x-1, at most x-1 times;
 
